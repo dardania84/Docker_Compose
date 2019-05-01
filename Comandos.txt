@@ -1,0 +1,12 @@
+#Comandos usados para brincar com esse docker
+docker-compose up -d reverse-proxy
+
+Acessa http://localhost:8080
+
+docker-compose up -d whoami
+docker-compose up
+docker-compose scale whoami=3
+
+
+
+https://jtreminio.com/blog/traefik-on-docker-for-web-developers/
